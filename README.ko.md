@@ -1,21 +1,21 @@
 # 바이낸스 자동 매매 트레이딩 봇
 
-[![GitHub version](https://img.shields.io/github/package-json/v/chrisleekr/binance-trading-bot)](https://github.com/chrisleekr/binance-trading-bot/releases)
-[![Build](https://github.com/chrisleekr/binance-trading-bot/workflows/main/badge.svg)](https://github.com/chrisleekr/binance-trading-bot/actions?query=workflow%3Amain)
-[![CodeCov](https://codecov.io/gh/chrisleekr/binance-trading-bot/branch/master/graph/badge.svg)](https://codecov.io/gh/chrisleekr/binance-trading-bot)
-[![Docker pull](https://img.shields.io/docker/pulls/chrisleekr/binance-trading-bot)](https://hub.docker.com/r/chrisleekr/binance-trading-bot)
-[![GitHub contributors](https://img.shields.io/github/contributors/chrisleekr/binance-trading-bot)](https://github.com/chrisleekr/binance-trading-bot/graphs/contributors)
-[![MIT License](https://img.shields.io/github/license/chrisleekr/binance-trading-bot)](https://github.com/chrisleekr/binance-trading-bot/blob/master/LICENSE)
+[![GitHub version](https://img.shields.io/github/package-json/v/holdemgk/binance-trading-bot)](https://github.com/holdemgk/binance-trading-bot/releases)
+[![Build](https://github.com/holdemgk/binance-trading-bot/workflows/main/badge.svg)](https://github.com/holdemgk/binance-trading-bot/actions?query=workflow%3Amain)
+[![CodeCov](https://codecov.io/gh/holdemgk/binance-trading-bot/branch/master/graph/badge.svg)](https://codecov.io/gh/holdemgk/binance-trading-bot)
+[![Docker pull](https://img.shields.io/docker/pulls/holdemgk/binance-trading-bot)](https://hub.docker.com/r/holdemgk/binance-trading-bot)
+[![GitHub contributors](https://img.shields.io/github/contributors/holdemgk/binance-trading-bot)](https://github.com/holdemgk/binance-trading-bot/graphs/contributors)
+[![MIT License](https://img.shields.io/github/license/holdemgk/binance-trading-bot)](https://github.com/holdemgk/binance-trading-bot/blob/master/LICENSE)
 
 > 추적 매수/매도 기법(Trailing buy/sell strategy)을 이용한 자동화된 바이낸스 자동매매 프로그램
 
 ---
 
-[![en](https://img.shields.io/badge/lang-English-blue.svg)](https://github.com/chrisleekr/binance-trading-bot/blob/master/README.md)
+[![en](https://img.shields.io/badge/lang-English-blue.svg)](https://github.com/holdemgk/binance-trading-bot/blob/master/README.md)
 
 이 프로젝트는 제 코드를 테스트 하기 위한 단순한 테스트 프로젝트 입니다.
 
-**최신 업데이트 정보는 [README.md](https://github.com/chrisleekr/binance-trading-bot#binance-trading-bot)에 서 확인 가능합니다. 이 페이지는 한국어로 프로그램에 대한 설명만 적혀있습니다.**
+**최신 업데이트 정보는 [README.md](https://github.com/holdemgk/binance-trading-bot#binance-trading-bot)에 서 확인 가능합니다. 이 페이지는 한국어로 프로그램에 대한 설명만 적혀있습니다.**
 
 ## 경고
 
@@ -240,8 +240,8 @@
 3. 브라우저를 열어 `http://0.0.0.0:8080`에 접근하시면 프론트엔드에 접근하실 수 있습니다.
 
    - 프로그램 실행시, 외부 URL은 슬랙(Slack)에 공지 됩니다.
-   - 봇을 사용시 문제가 발생할 경우, 먼저 로그를 확인하시기 바랍니다. 참조: [Troubleshooting](https://github.com/chrisleekr/binance-trading-bot/wiki/Troubleshooting)
+   - 봇을 사용시 문제가 발생할 경우, 먼저 로그를 확인하시기 바랍니다. 참조: [Troubleshooting](https://github.com/holdemgk/binance-trading-bot/wiki/Troubleshooting)
 
 ## 스크린샷
 
-**스크린샷 정보는 [README.md](https://github.com/chrisleekr/binance-trading-bot#screenshots)에서 참고하시기 바랍니다.**
+**스크린샷 정보는 [README.md](https://github.com/holdemgk/binance-trading-bot#screenshots)에서 참고하시기 바랍니다.**

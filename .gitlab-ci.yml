@@ -26,7 +26,7 @@ production:
   stage: build production
   image: docker:stable-git
   only:
-    - master
+    - gk-prod
   <<: *before-script
   script:
     - PACKAGE_VERSION=$(grep -m1 version package.json | cut -c 15- | rev | cut
@@ -34,5 +34,5 @@ production:
     - GIT_HASH=$(git rev-parse --short HEAD)
     - docker build . --build-arg PACKAGE_VERSION=$PACKAGE_VERSION --build-arg
       GIT_HASH=$GIT_HASH --build-arg NODE_ENV=production --target
-      production-stage -t $REGISTRY_DOMAIN/chrisleekr/binance-trading-bot:latest
-    - docker push $REGISTRY_DOMAIN/chrisleekr/binance-trading-bot:latest
+      production-stage -t $REGISTRY_DOMAIN/holdemgk/binance-trading-bot:latest
+    - docker push $REGISTRY_DOMAIN/holdemgk/binance-trading-bot:latest

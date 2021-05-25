@@ -1,17 +1,17 @@
 # Binance Trading Bot
 
-[![GitHub version](https://img.shields.io/github/package-json/v/chrisleekr/binance-trading-bot)](https://github.com/chrisleekr/binance-trading-bot/releases)
-[![Build](https://github.com/chrisleekr/binance-trading-bot/workflows/main/badge.svg)](https://github.com/chrisleekr/binance-trading-bot/actions?query=workflow%3Amain)
-[![CodeCov](https://codecov.io/gh/chrisleekr/binance-trading-bot/branch/master/graph/badge.svg)](https://codecov.io/gh/chrisleekr/binance-trading-bot)
-[![Docker pull](https://img.shields.io/docker/pulls/chrisleekr/binance-trading-bot)](https://hub.docker.com/r/chrisleekr/binance-trading-bot)
-[![GitHub contributors](https://img.shields.io/github/contributors/chrisleekr/binance-trading-bot)](https://github.com/chrisleekr/binance-trading-bot/graphs/contributors)
-[![MIT License](https://img.shields.io/github/license/chrisleekr/binance-trading-bot)](https://github.com/chrisleekr/binance-trading-bot/blob/master/LICENSE)
+[![GitHub version](https://img.shields.io/github/package-json/v/holdemgk/binance-trading-bot)](https://github.com/holdemgk/binance-trading-bot/releases)
+[![Build](https://github.com/holdemgk/binance-trading-bot/workflows/main/badge.svg)](https://github.com/holdemgk/binance-trading-bot/actions?query=workflow%3Amain)
+[![CodeCov](https://codecov.io/gh/holdemgk/binance-trading-bot/branch/master/graph/badge.svg)](https://codecov.io/gh/holdemgk/binance-trading-bot)
+[![Docker pull](https://img.shields.io/docker/pulls/holdemgk/binance-trading-bot)](https://hub.docker.com/r/holdemgk/binance-trading-bot)
+[![GitHub contributors](https://img.shields.io/github/contributors/holdemgk/binance-trading-bot)](https://github.com/holdemgk/binance-trading-bot/graphs/contributors)
+[![MIT License](https://img.shields.io/github/license/holdemgk/binance-trading-bot)](https://github.com/holdemgk/binance-trading-bot/blob/master/LICENSE)
 
 > Automated Binance trading bot with trailing buy/sell strategy
 
 ---
 
-[![ko](https://img.shields.io/badge/lang-한국어-brightgreen.svg)](https://github.com/chrisleekr/binance-trading-bot/blob/master/README.ko.md)
+[![ko](https://img.shields.io/badge/lang-한국어-brightgreen.svg)](https://github.com/holdemgk/binance-trading-bot/blob/master/README.ko.md)
 
 This is a test project. I am just testing my code.
 
@@ -46,7 +46,7 @@ The bot is now monitoring all coins every second. However, updating the indicato
 As a result, I had to introduce the lock mechanism for the symbol. The frontend will display the lock icon when the symbol is updating the indicators in the background. During updating the indicators, the bot will not process the order.
 
 If interested, take a look this PR
-[#77](https://github.com/chrisleekr/binance-trading-bot/pull/77)
+[#77](https://github.com/holdemgk/binance-trading-bot/pull/77)
 
 ### Support Stop-Loss
 
@@ -270,7 +270,7 @@ Or use the frontend to adjust configurations after launching the application.
 3. Open browser `http://0.0.0.0:8080` to see the frontend
 
    - When launching the application, it will notify public URL to the Slack.
-   - If you have any issue with the bot, you can check the log to find out what happened with the bot. Please take a look [Troubleshooting](https://github.com/chrisleekr/binance-trading-bot/wiki/Troubleshooting)
+   - If you have any issue with the bot, you can check the log to find out what happened with the bot. Please take a look [Troubleshooting](https://github.com/holdemgk/binance-trading-bot/wiki/Troubleshooting)
 
 ### Install via Stackfile
 
@@ -301,36 +301,36 @@ Or use the frontend to adjust configurations after launching the application.
 ## Changes & Todo
 
 Please refer
-[CHANGELOG.md](https://github.com/chrisleekr/binance-trading-bot/blob/master/CHANGELOG.md)
+[CHANGELOG.md](https://github.com/holdemgk/binance-trading-bot/blob/master/CHANGELOG.md)
 to view the past changes.
 
-- [x] Update the bot to monitor all coins every second - [#52](https://github.com/chrisleekr/binance-trading-bot/issues/52)
-- [x] Display release version to the frontend - [#59](https://github.com/chrisleekr/binance-trading-bot/issues/59)
-- [x] Improve frontend & settings UI - [#93](https://github.com/chrisleekr/binance-trading-bot/issues/93) [#85](https://github.com/chrisleekr/binance-trading-bot/issues/85)
-- [x] Support all symbols - [#104](https://github.com/chrisleekr/binance-trading-bot/issues/104)
-- [x] Add stop loss feature - [#99](https://github.com/chrisleekr/binance-trading-bot/issues/99)
-- [ ] Add manual buy/sell feature -[#100](https://github.com/chrisleekr/binance-trading-bot/issues/100)
-- [ ] Improve sell strategy with conditional stop price percentage based on the profit percentage - [#94](https://github.com/chrisleekr/binance-trading-bot/issues/94)
-- [ ] Add sudden drop buy strategy - [#67](https://github.com/chrisleekr/binance-trading-bot/issues/67)
-- [ ] Support Grid strategy for buy/sell to mitigate loss/increasing profit - [#158](https://github.com/chrisleekr/binance-trading-bot/issues/158)
-- [ ] Improve buy strategy with restricting purchase if the price is close to ATH - [#82](https://github.com/chrisleekr/binance-trading-bot/issues/82)
+- [x] Update the bot to monitor all coins every second - [#52](https://github.com/holdemgk/binance-trading-bot/issues/52)
+- [x] Display release version to the frontend - [#59](https://github.com/holdemgk/binance-trading-bot/issues/59)
+- [x] Improve frontend & settings UI - [#93](https://github.com/holdemgk/binance-trading-bot/issues/93) [#85](https://github.com/holdemgk/binance-trading-bot/issues/85)
+- [x] Support all symbols - [#104](https://github.com/holdemgk/binance-trading-bot/issues/104)
+- [x] Add stop loss feature - [#99](https://github.com/holdemgk/binance-trading-bot/issues/99)
+- [ ] Add manual buy/sell feature -[#100](https://github.com/holdemgk/binance-trading-bot/issues/100)
+- [ ] Improve sell strategy with conditional stop price percentage based on the profit percentage - [#94](https://github.com/holdemgk/binance-trading-bot/issues/94)
+- [ ] Add sudden drop buy strategy - [#67](https://github.com/holdemgk/binance-trading-bot/issues/67)
+- [ ] Support Grid strategy for buy/sell to mitigate loss/increasing profit - [#158](https://github.com/holdemgk/binance-trading-bot/issues/158)
+- [ ] Improve buy strategy with restricting purchase if the price is close to ATH - [#82](https://github.com/holdemgk/binance-trading-bot/issues/82)
 - [ ] Secure frontend with the password authentication
-- [ ] Display summary of transactions on the frontend - [#160](https://github.com/chrisleekr/binance-trading-bot/issues/160)
-- [ ] Add minimum required order amount - [#84](https://github.com/chrisleekr/binance-trading-bot/issues/84)
-- [ ] Manage setting profiles (save/change/load?/export?) - [#151](https://github.com/chrisleekr/binance-trading-bot/issues/151)
-- [ ] Filter symbols in the frontend - [#120](https://github.com/chrisleekr/binance-trading-bot/issues/120)
-- [ ] Improve notifications by supporting Apprise [#106](https://github.com/chrisleekr/binance-trading-bot/issues/106)
-- [ ] Support cool time after hitting the lowest price before buy - [#105](https://github.com/chrisleekr/binance-trading-bot/issues/105)
+- [ ] Display summary of transactions on the frontend - [#160](https://github.com/holdemgk/binance-trading-bot/issues/160)
+- [ ] Add minimum required order amount - [#84](https://github.com/holdemgk/binance-trading-bot/issues/84)
+- [ ] Manage setting profiles (save/change/load?/export?) - [#151](https://github.com/holdemgk/binance-trading-bot/issues/151)
+- [ ] Filter symbols in the frontend - [#120](https://github.com/holdemgk/binance-trading-bot/issues/120)
+- [ ] Improve notifications by supporting Apprise [#106](https://github.com/holdemgk/binance-trading-bot/issues/106)
+- [ ] Support cool time after hitting the lowest price before buy - [#105](https://github.com/holdemgk/binance-trading-bot/issues/105)
 - [ ] Add frontend option to disable sorting or improve sorting
-- [ ] Reset global configuration to initial configuration - [#97](https://github.com/chrisleekr/binance-trading-bot/issues/97)
-- [ ] Support limit for active buy/sell orders - [#147](https://github.com/chrisleekr/binance-trading-bot/issues/147)
+- [ ] Reset global configuration to initial configuration - [#97](https://github.com/holdemgk/binance-trading-bot/issues/97)
+- [ ] Support limit for active buy/sell orders - [#147](https://github.com/holdemgk/binance-trading-bot/issues/147)
 - [ ] Develop simple setup screen for secrets
-- [ ] Support multilingual frontend - [#56](https://github.com/chrisleekr/binance-trading-bot/issues/56)
+- [ ] Support multilingual frontend - [#56](https://github.com/holdemgk/binance-trading-bot/issues/56)
 
 ## Donations
 
 If you find this project helpful, feel free to make a small
-[donation](https://github.com/chrisleekr/binance-trading-bot/blob/master/DONATIONS.md)
+[donation](https://github.com/holdemgk/binance-trading-bot/blob/master/DONATIONS.md)
 to the developer.
 
 ## Acknowledgments
@@ -343,10 +343,10 @@ to the developer.
 <table>
 <tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/chrisleekr>
-            <img src=https://avatars.githubusercontent.com/u/5715919?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=chrisleekr/>
+        <a href=https://github.com/holdemgk>
+            <img src=https://avatars.githubusercontent.com/u/5715919?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=holdemgk/>
             <br />
-            <sub style="font-size:14px"><b>chrisleekr</b></sub>
+            <sub style="font-size:14px"><b>holdemgk</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
